@@ -140,3 +140,5 @@ Krijg je een rood kruis bij je Pull Request? Klik op **"Details"**. De robot ver
 * *"System Files changed"* → Je hebt per ongeluk in `style.css` of `index.html` gewerkt. Draai die wijzigingen terug.
 
 Succes! 💻✨
+
+.
