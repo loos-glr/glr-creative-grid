@@ -97,3 +97,4 @@ h1 span { opacity: 0.5; }
     transform: scale(1); /* Reset scale want we gebruiken width/height */
     box-shadow: 0 0 0 100vmax rgba(0,0,0,0.9); /* Dim de achtergrond */
 }
+
