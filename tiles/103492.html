@@ -24,9 +24,40 @@
     color: #fff;
     transform: scale(0.95);
     border-radius: 10px;
+    cursor: crosshair;
+  }
+
+  #tile-103492 h2 {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  #tile-103492:hover h2 {
+    animation: shadow-dance 1s infinite;
+  }
+
+  .icon {
+    fill: #00bdbd;
+  }
+
+  #tile-103492:hover .icon {
+    fill: #fff;
+  }
+
+  @keyframes shadow-dance {
+    0%,
+    100% {
+      text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    }
+    50% {
+      text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff005e;
+    }
   }
 </style>
 
 <div id="tile-103492" class="student-tile">
-  <h2>Max Paardekam</h2>
+  <h2>
+    Max <br />
+    Paardekam
+  </h2>
 </div>
